@@ -16,7 +16,7 @@
 
     :root {
       /* 👇 CHANGE THIS NUMBER TO ADJUST LOGO SIZE 👇 */
-      --logo-size: 95px; 
+      --logo-size: 105px; 
       /* 👆 INCREASE OR DECREASE AS NEEDED 👆 */
 
       /* Core Brand Colors */
@@ -443,7 +443,8 @@
         <div class="form-field">
           <input type="text"  name="name"    placeholder="Your Name" required />
           <input type="email" name="email"   placeholder="Your Email" required />
-          <input type="tel"   name="phone"   placeholder="Phone Number (Optional)" />
+          <!-- CHANGED TO REQUIRED AND REMOVED "(Optional)" -->
+          <input type="tel"   name="phone"   placeholder="Phone Number" required />
           <textarea           name="message" placeholder="Message (Optional)"></textarea>
         </div>
 
